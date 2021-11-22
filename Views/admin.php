@@ -12,6 +12,6 @@
        $userC = new UserContoller();
       
 
-	$userC->supprimerUtilisateur($_GET["id"]);
+	$userC->setAdmin($_GET["id"]);
 	header('Location:listeutilisateur.php');
 ?>

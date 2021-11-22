@@ -27,6 +27,7 @@ if (
          $_POST['username'],
          $_POST['email'], 
          $_POST["password"] ,
+         'USER'
      
      );
      $userC->ajouterUtilisateur($user);

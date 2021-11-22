@@ -4,7 +4,7 @@ include 'headerback.php';
 
 include '../Controller/UserController.php';
 $userC = new UserContoller();
-	$liste=$userC->afficherUtilisateur(); 
+	$liste=$userC->afficherUtilisateurTrier(); 
 
 ?>
 
@@ -14,8 +14,6 @@ $userC = new UserContoller();
                 <div class="panel">
                     <div class="panel-heading">
                         <h3 class="panel-title">Modals Triggering</h3>
-                        <br>
-                    <a href="listeutilisateurtri.php">afficher la liste trié</a>
                     </div>
 
                     <div class="panel-content">
@@ -25,9 +23,9 @@ $userC = new UserContoller();
                                   
                                     <tr>
                                     <th scope="col">Numero</th>
-                                    <th scope="col" >Email</th>
-                                    <th scope="col">Username</th>
-                                    <th scope="col">Password</th>
+                    <th scope="col" >Email</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Password</th>
                                     </tr>
                                 </thead>
                                 <tbody>
